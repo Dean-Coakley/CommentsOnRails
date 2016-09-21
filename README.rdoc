@@ -1,16 +1,23 @@
-== README
+A simple comments thread application. In this project I wanted to focus on a nice user experience and very minimalistic design.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![Image of the app running](/repoimages/comments.png?raw=true)
 
-Things you may want to cover:
+Inherited from my Comments project but I wanted to have persistant storage via db.
 
+Details
 * Ruby version: 2.1
+* Database: Initialised to no entries
 
-* Database: Typically initialised to no entries
+To run:
+*Firstly Git clone this repo if you haven't already
+*cd into the project directory
+*bundle install
+*rake db:create 	-to make sure the db exists
+*run rake db:migrate	- if you want the included db
+*rails server
 
-* Services (job queues, cache servers, search engines, etc.)
+Enjoy!
 
-* Deployment instructions
 
-<tt>rake doc:app</tt>.
+
+
