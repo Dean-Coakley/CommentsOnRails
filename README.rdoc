@@ -1,6 +1,6 @@
 A simple comments thread application. In this project I wanted to focus on a nice user experience and very minimalistic design.
 
-<img src="/repoimages/comments.png" alt="Image of app running.">
+rdoc-image:/repoimages/comments.png
 
 Inherited from my Comments project but I wanted to have persistant storage via db.
 
