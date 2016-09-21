@@ -9,12 +9,12 @@ Details
 * Database: Initialised to no entries
 
 To run:
-*Firstly Git clone this repo if you haven't already
-*cd into the project directory
-*bundle install
-*rake db:create 	-to make sure the db exists
-*run rake db:migrate	- if you want the included db
-*rails server
+* Firstly Git clone this repo if you haven't already
+* cd into the project directory
+* bundle install
+* rake db:create 	-to make sure the db exists
+* run rake db:migrate	- if you want the included db
+* rails server
 
 Enjoy!
 
