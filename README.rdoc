@@ -1,6 +1,6 @@
 A simple comments thread application. In this project I wanted to focus on a nice user experience and very minimalistic design.
 
-rdoc-image:https://github.com/Dean-Coakley/CommentsOnRails/blob/master/repoimages/comments.png
+https://github.com/Dean-Coakley/CommentsOnRails/blob/master/repoimages/comments.png
 
 Inherited from my Comments project but I wanted to have persistant storage via db.
 
