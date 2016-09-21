@@ -1,6 +1,6 @@
 A simple comments thread application. In this project I wanted to focus on a nice user experience and very minimalistic design.
 
-![Image of the app running](/repoimages/comments.png?raw=true)
+<img src="/repoimages/comments.png" alt="Image of app running.">
 
 Inherited from my Comments project but I wanted to have persistant storage via db.
 
