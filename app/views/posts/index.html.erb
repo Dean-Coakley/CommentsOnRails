@@ -20,9 +20,11 @@
 
 
 				<ul class="comments" id="comments">
-						<% @posts.each do |p| %>
+						<% @posts.each.reverse_each do |p| %>
 							<li> <%= p.comment %> </li>
+							<p class="date"><%= @date %></p>
 						<% end %>
+
 				</ul>
 				
 
