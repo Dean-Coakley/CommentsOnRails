@@ -5,9 +5,7 @@
 						<div class="col-xs-8 col-md-10">
 							
 							<%= f.text_field :comment, :placeholder => "Comment here" %>
-
-
-							
+		
 						</div>
 
 						<div class="col-xs-4 col-md-2">
@@ -17,20 +15,14 @@
 					<% end %>
 				</div>
 
-
-
 				<ul class="comments" id="comments">
-<<<<<<< HEAD
 						<% @posts.reverse_each do |p| %>
-=======
-						<% @posts.each.reverse_each do |p| %>
->>>>>>> 8b663429cbaee2c57a30afdb02a92273168b5049
+
+
 							<li> <%= p.comment %> </li>
 							<p class="date"><%= @date %></p>
 						<% end %>
-
 				</ul>
-				
 
 			</div>
 		</div>

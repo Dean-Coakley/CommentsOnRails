@@ -4740,3 +4740,28 @@ Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde45
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-10-06 12:24:43 +0100
 >>>>>>> 8b663429cbaee2c57a30afdb02a92273168b5049
+
+
+Started GET "/" for ::1 at 2017-03-24 00:50:01 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.0ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 264ms (Views: 249.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/posts" for ::1 at 2017-03-24 00:50:15 +0000
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z8hZxBH1OiRrRvimAV5K7U6mYxIb1JpMaq3HZg4Oyrf099+p4x4pveBm1rtEGtIb2acKWhPTGt4Ks1lzCbHtYA==", "post"=>{"comment"=>"0.5"}, "commit"=>"post"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "posts" ("comment", "created_at", "updated_at") VALUES (?, ?, ?)  [["comment", "0.5"], ["created_at", "2017-03-24 00:50:15.936389"], ["updated_at", "2017-03-24 00:50:15.936389"]]
+  [1m[36m (5.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 15ms (ActiveRecord: 5.9ms)
+
+
+Started GET "/" for ::1 at 2017-03-24 00:50:15 +0000
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.0ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 89ms (Views: 88.1ms | ActiveRecord: 0.0ms)
