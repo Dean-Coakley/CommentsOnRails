@@ -1,9 +1,13 @@
 == README
 
-* Ruby version: 2.1
+* Ruby version: 2.3.3
 
 * Database: Typically initialised to no entries
 
 * Deployment instructions
+* clone repo
+* bundle install
+* rake db:migrate
+* rails s
 
 <tt>rake doc:app</tt>.
