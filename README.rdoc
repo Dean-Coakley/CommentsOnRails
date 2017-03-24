@@ -1,23 +1,9 @@
-A simple comments thread application. In this project I wanted to focus on a nice user experience and very minimalistic design.
+== README
 
-https://github.com/Dean-Coakley/CommentsOnRails/blob/master/repoimages/comments.png
-
-Inherited from my Comments project but I wanted to have persistant storage via db.
-
-Details
 * Ruby version: 2.1
-* Database: Initialised to no entries
 
-To run:
-* Firstly Git clone this repo if you haven't already
-* cd into the project directory
-* bundle install
-* rake db:create 	-to make sure the db exists
-* run rake db:migrate	- if you want the included db
-* rails server
+* Database: Typically initialised to no entries
 
-Enjoy!
+* Deployment instructions
 
-
-
-
+<tt>rake doc:app</tt>.

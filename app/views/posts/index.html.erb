@@ -20,9 +20,15 @@
 
 
 				<ul class="comments" id="comments">
+<<<<<<< HEAD
 						<% @posts.reverse_each do |p| %>
+=======
+						<% @posts.each.reverse_each do |p| %>
+>>>>>>> 8b663429cbaee2c57a30afdb02a92273168b5049
 							<li> <%= p.comment %> </li>
+							<p class="date"><%= @date %></p>
 						<% end %>
+
 				</ul>
 				
 
