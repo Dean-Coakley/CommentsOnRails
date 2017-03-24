@@ -4,10 +4,10 @@
 
 * Database: Typically initialised to no entries
 
-* Deployment instructions
+== Deployment instructions
 * clone repo
 * bundle install
 * rake db:migrate
 * rails s
-
+https://github.com/Dean-Coakley/CommentsOnRails/blob/master/repoimages/comments.png
 <tt>rake doc:app</tt>.
