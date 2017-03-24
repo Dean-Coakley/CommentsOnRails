@@ -1,4 +1,4 @@
-== README
+== Simple Comment System Built On RubyOnRails
 
 * Ruby version: 2.3.3
 
